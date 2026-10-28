@@ -1,0 +1,7 @@
+START
+
+INPUT Harga
+INPUT Jumlah
+INPUT isMember
+
+IF Harga > 0 || Type da  

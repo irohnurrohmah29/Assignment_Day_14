@@ -1,0 +1,92 @@
+﻿Mini Project Full-Stack : Case Study Flowchat, Pseudocode &  Javascript
+Full-stack Web Development
+Assignment 
+1. Subject: Mini Project Full-Stack
+2. Types: Mini Project
+3. Topics Covered: Computational Thinking, Flowchart, Pseudocode, dan JavaScript
+Objectives
+Tujuan assignment ini adalah mengukur pemahaman peserta dalam menerapkan computational thinking untuk menyelesaikan masalah sederhana. Peserta diharapkan dapat memecah masalah, menentukan aturan keputusan, menyusun flowchart dan pseudocode, lalu menerjemahkannya menjadi program JavaScript yang dapat diuji.
+Detail Assignment
+Buatlah solusi untuk case study Sistem Checkout Produk Sederhana dengan ketentuan di bawah ini.
+
+
+Teknologi:
+1. Flowchart AI Generator atau draw.io untuk membuat flowchart.
+2. JavaScript vanilla untuk implementasi program.
+3. LLM boleh digunakan sebagai partner diskusi atau reviewer, bukan sebagai pengganti pemahaman dan pengerjaan peserta.
+Case Study: Sistem Checkout Produk Sederhana
+Program menerima tiga input: harga produk, jumlah produk, dan status member. Program kemudian menghitung subtotal, diskon, ongkos kirim, serta total pembayaran dengan aturan berikut.
+1. Harga produk harus berupa angka positif dan jumlah produk harus berupa bilangan bulat positif. Jika tidak valid, program menampilkan pesan input tidak valid dan tidak melanjutkan perhitungan.
+2. Subtotal = harga produk x jumlah produk.
+3. Member mendapatkan diskon 10% dari subtotal. Non-member tidak mendapatkan diskon.
+4. Setelah diskon, ongkos kirim gratis apabila total setelah diskon minimal Rp250.000. Jika kurang dari Rp250.000, ongkos kirim Rp15.000.
+5. Total pembayaran = total setelah diskon + ongkos kirim.
+Ketentuan Pengerjaan:
+1. Tuliskan problem decomposition yang menjelaskan input, proses, output, dan aturan keputusan dari case study.
+2. Buat flowchart yang memuat proses validasi input, perhitungan subtotal, keputusan status member, keputusan ongkos kirim, dan output total pembayaran.
+3. Buat pseudocode yang konsisten dengan flowchart dan menjelaskan urutan proses dengan jelas.
+4. Implementasikan pseudocode ke JavaScript melalui satu fungsi bernama hitungCheckout(harga, jumlah, isMember). Fungsi mengembalikan hasil perhitungan atau pesan error untuk input tidak valid.
+5. Lakukan pengujian minimal pada delapan skenario: member, non-member, total di bawah Rp250.000, tepat Rp250.000, di atas Rp250.000, jumlah 0, jumlah pecahan, dan harga tidak valid.
+6. Tidak perlu membuat UI, API, database, atau deployment. Fokus assignment adalah logika problem solving dan implementasi JavaScript dasar.
+Deliverables
+1. README.md berisi nama, deskripsi case study, cara menjalankan program, dan ringkasan penggunaan AI bila ada.
+2. analysis.md berisi problem decomposition: input, proses, output, pattern, dan abstraction.
+3. flowchart.drawio serta flowchart.png atau PDF hasil export.
+4. pseudocode.md atau pseudocode.txt.
+5. checkout.js.
+6. testing.md atau testing.pdf yang memuat minimal delapan skenario uji beserta hasilnya.
+Tools
+* Visual Studio Code
+* draw.io atau Flowchart AI Generator
+* LLM
+* Node.js
+Pengumpulan Assignment
+Deadline:
+Maksimal H+7 Kelas, Rabu 28 Oktober 2026 pukul 23.30 WIB
+Details:
+Dikumpulkan secara INDIVIDU dalam bentuk link repository GitHub di LMS. Pastikan repository dapat diakses dan seluruh deliverables tersedia di dalamnya.
+Indikator Penilaian
+No
+	Aspek Penilaian
+	Category
+	Bobot Maksimal
+	1
+	Computational Thinking
+	Problem decomposition dan abstraction
+	20
+	2
+	Flowchart
+	Alur logika, simbol, dan percabangan
+	20
+	3
+	Pseudocode
+	Kejelasan langkah dan kesesuaian dengan flowchart
+	20
+	4
+	JavaScript Implementation
+	Logika program, validasi, dan hasil output
+	20
+	5
+	Testing dan Dokumentasi
+	Skenario uji, hasil pengujian, dan README
+	20
+	Total
+	Total
+	Total
+	100
+	 
+Ketentuan Penggunaan AI:
+AI boleh digunakan untuk berdiskusi, meminta review, atau membantu memahami error. Peserta tetap wajib memahami dan dapat menjelaskan alur flowchart, pseudocode, serta kode JavaScript yang dikumpulkan. Penggunaan AI perlu dicatat secara singkat pada README apabila digunakan.
+Ketentuan Pencapaian Nilai:
+Nilai minimum Lulus Penyaluran Kerja: 75
+Nilai minimum Lulus Bootcamp: 65
+Ketentuan Penilaian:
+Mengumpulkan assignment tepat waktu: sesuai dengan nilai yang diberikan mentor.
+Mengumpulkan assignment 12 jam setelah deadline: - 3 dari nilai yang diberikan mentor.
+Mengumpulkan assignment 1 x 24 jam setelah deadline: - 6 dari nilai yang diberikan mentor.
+Mengumpulkan assignment 2 x 24 jam setelah deadline: - 12 dari nilai yang diberikan mentor.
+Mengumpulkan assignment 3 x 24 jam setelah deadline: - 18 dari nilai yang diberikan mentor.
+Mengumpulkan assignment 4 x 24 jam setelah deadline: - 24 dari nilai yang diberikan mentor.
+Mengumpulkan assignment 5 x 24 jam setelah deadline: - 30 dari nilai yang diberikan mentor.
+Mengumpulkan assignment 6 x 24 jam setelah deadline: - 36 dari nilai yang diberikan mentor.
+Mengumpulkan assignment 7 x 24 jam setelah deadline: - 42 dari nilai yang diberikan mentor.

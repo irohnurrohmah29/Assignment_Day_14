@@ -1,0 +1,8 @@
+START
+
+INPUT Harga
+INPUT Jumlah
+INPUT isMember
+
+IF Harga > 0 || Type data harga !== Number  
+|| Jumlah Bilangan 

@@ -1,0 +1,3 @@
+STARTINPUT Harga
+    INPUT Jumlah
+    INPUT isMember

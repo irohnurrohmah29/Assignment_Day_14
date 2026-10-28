@@ -1,0 +1,21 @@
+START
+
+INPUT Harga
+INPUT Jumlah
+INPUT isMember
+
+IF Harga < 0 || Type data harga !== Number  
+|| Jumlah  < 0 || Jumlah bukan bilangan bulat 
+
+OUTPUT Input Tidak Valid
+
+ELSE 
+Subtotal = Harga x Jumlah
+
+END IF
+
+IF IsMember = TRUE 
+Diskon = 10 % * Subtotal
+
+ELSE 
+Diskon 

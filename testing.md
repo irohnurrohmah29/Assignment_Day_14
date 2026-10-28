@@ -1,0 +1,20 @@
+# Hasil Pengujian `checkout.js`
+
+Pengujian dijalankan menggunakan `node checkout.js`. Output pada tabel disalin dari hasil eksekusi program.
+
+| No. | Input (`harga × jumlah`) | Member | Skenario | Output program |
+|:---:|---:|:---:|---|---|
+| 1 | Rp50.000 × 2 | Ya | Diskon member 10%; total setelah diskon di bawah Rp250.000 | `NO.1: 105000` |
+| 2 | Rp100.000 × 1 | Tidak | Non-member; total setelah diskon di bawah Rp250.000 | `NO.2: 115000` |
+| 3 | Rp100.000 × 2 | Tidak | Total setelah diskon Rp200.000; ongkir dikenakan | `NO.3: 215000` |
+| 4 | Rp250.000 × 1 | Tidak | Total tepat Rp250.000; ongkir gratis | `NO.4: 250000` |
+| 5 | Rp300.000 × 1 | Tidak | Total di atas Rp250.000; ongkir gratis | `NO.5: 300000` |
+| 6 | Rp100.000 × 0 | Ya | Jumlah nol tidak valid | `NO.6: Input Tidak Valid` |
+| 7 | Rp100.000 × 1,5 | Ya | Jumlah pecahan tidak valid | `NO.7: Input Tidak Valid` |
+| 8 | Rp0 × 1 | Ya | Harga nol tidak valid | `NO.8: Input Tidak Valid` |
+| 9 | -Rp1.000 × 1 | Tidak | Harga negatif tidak valid | `NO.9: Input Tidak Valid` |
+
+## Ringkasan
+
+- **5 pengujian berhasil menghitung total pembayaran** sesuai aturan diskon dan ongkir.
+- **4 pengujian menghasilkan `Input Tidak Valid`** karena harga atau jumlah tidak memenuhi validasi.
